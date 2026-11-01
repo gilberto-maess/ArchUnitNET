@@ -1,0 +1,5 @@
+@startuml
+' Sem seta: os módulos não podem depender um do outro.
+[Tickets] <<Tickets\.Aplicacao\.Tickets\..*>>
+[Notifications] <<Tickets\.Aplicacao\.Notifications\..*>>
+@enduml
